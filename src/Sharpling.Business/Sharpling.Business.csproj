@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Starling.Models\Sharpling.Models.csproj" />
+    <ProjectReference Include="..\Sharpling.Models\Sharpling.Models.csproj" />
   </ItemGroup>
 
 </Project>

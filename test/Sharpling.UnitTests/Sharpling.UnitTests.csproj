@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Sharpling.Models\Sharpling.Models.csproj" />
     <ProjectReference Include="..\..\src\Sharpling\Sharpling.csproj" />
-    <ProjectReference Include="..\..\src\Starling.Models\Sharpling.Models.csproj" />
   </ItemGroup>
 
 </Project>

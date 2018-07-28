@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A318B44-0AA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{24BF3DA4-F8DE-4DE5-B560-475BB0CC84BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpling.Models", "Starling.Models\Sharpling.Models.csproj", "{1A1E384A-3FFF-4172-A542-1BD4CF268F75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpling.Models", "Sharpling.Models\Sharpling.Models.csproj", "{1A1E384A-3FFF-4172-A542-1BD4CF268F75}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpling.Business", "Starling.Business\Sharpling.Business.csproj", "{2174FA72-0597-4471-95A4-04B28CCAC863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpling.Business", "Sharpling.Business\Sharpling.Business.csproj", "{2174FA72-0597-4471-95A4-04B28CCAC863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
