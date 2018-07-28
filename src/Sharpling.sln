@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpling", "Sharpling\Sharpling.csproj", "{049417A2-AE10-4D3F-97AB-FE0D659BE05D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpling.UnitTests", "..\test\Sharpling.UnitTests\Sharpling.UnitTests.csproj", "{A3FA189F-AE22-4AFD-BB32-AE2684D8F88D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpling.IntegrationTests", "..\test\Sharpling.IntegrationTests\Sharpling.IntegrationTests.csproj", "{F2377C72-2C86-4A9F-97A4-2CE463A8DC0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A318B44-0AAF-4B96-9E6B-CC6CF08319AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{24BF3DA4-F8DE-4DE5-B560-475BB0CC84BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpling.Models", "Starling.Models\Sharpling.Models.csproj", "{1A1E384A-3FFF-4172-A542-1BD4CF268F75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpling.Business", "Starling.Business\Sharpling.Business.csproj", "{2174FA72-0597-4471-95A4-04B28CCAC863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{049417A2-AE10-4D3F-97AB-FE0D659BE05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049417A2-AE10-4D3F-97AB-FE0D659BE05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049417A2-AE10-4D3F-97AB-FE0D659BE05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049417A2-AE10-4D3F-97AB-FE0D659BE05D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FA189F-AE22-4AFD-BB32-AE2684D8F88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FA189F-AE22-4AFD-BB32-AE2684D8F88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FA189F-AE22-4AFD-BB32-AE2684D8F88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FA189F-AE22-4AFD-BB32-AE2684D8F88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2377C72-2C86-4A9F-97A4-2CE463A8DC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2377C72-2C86-4A9F-97A4-2CE463A8DC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2377C72-2C86-4A9F-97A4-2CE463A8DC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2377C72-2C86-4A9F-97A4-2CE463A8DC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1E384A-3FFF-4172-A542-1BD4CF268F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1E384A-3FFF-4172-A542-1BD4CF268F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1E384A-3FFF-4172-A542-1BD4CF268F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1E384A-3FFF-4172-A542-1BD4CF268F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2174FA72-0597-4471-95A4-04B28CCAC863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2174FA72-0597-4471-95A4-04B28CCAC863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2174FA72-0597-4471-95A4-04B28CCAC863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2174FA72-0597-4471-95A4-04B28CCAC863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{049417A2-AE10-4D3F-97AB-FE0D659BE05D} = {2A318B44-0AAF-4B96-9E6B-CC6CF08319AF}
+		{A3FA189F-AE22-4AFD-BB32-AE2684D8F88D} = {24BF3DA4-F8DE-4DE5-B560-475BB0CC84BE}
+		{F2377C72-2C86-4A9F-97A4-2CE463A8DC0E} = {24BF3DA4-F8DE-4DE5-B560-475BB0CC84BE}
+		{1A1E384A-3FFF-4172-A542-1BD4CF268F75} = {2A318B44-0AAF-4B96-9E6B-CC6CF08319AF}
+		{2174FA72-0597-4471-95A4-04B28CCAC863} = {2A318B44-0AAF-4B96-9E6B-CC6CF08319AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {893B7FEE-F59F-4AD7-B75E-C62C9E83C182}
+	EndGlobalSection
+EndGlobal
