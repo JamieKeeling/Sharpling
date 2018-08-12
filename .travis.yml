@@ -1,0 +1,11 @@
+language: csharp 
+dist: trusty
+mono: none
+dotnet: 2.1
+
+branches:  
+  only:  
+    - develop
+
+script:  
+  - dotnet test ./test/Sharpling.UnitTests/Sharpling.UnitTests.csproj
