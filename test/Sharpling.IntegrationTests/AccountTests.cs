@@ -10,7 +10,7 @@ namespace Sharpling.IntegrationTests
         [Fact]
         public async Task Account_WithAuth_ReturnsDataAsync()
         {
-            var client = new SharplingClient(StarlingEnvironment.SANDBOX, "fh2X2Y3e1htET6NM8xoqeEtwve8PJnZGhAugBBVLWLW73A9yK80RwRdezBF0i18n");
+            var client = new SharplingClient(StarlingEnvironment.SANDBOX, "");
 
             var account = await client.GetAccountAsync();
 
@@ -28,7 +28,7 @@ namespace Sharpling.IntegrationTests
         [Fact]
         public async Task AccountBalance_WithAuth_ReturnsDataAsync()
         {
-            var client = new SharplingClient(StarlingEnvironment.SANDBOX, "fh2X2Y3e1htET6NM8xoqeEtwve8PJnZGhAugBBVLWLW73A9yK80RwRdezBF0i18n");
+            var client = new SharplingClient(StarlingEnvironment.SANDBOX, "");
 
             var accountBalance = await client.GetAccountBalanceAsync();
 
