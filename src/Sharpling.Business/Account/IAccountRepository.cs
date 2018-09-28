@@ -4,6 +4,7 @@ namespace Sharpling.Business.Account
 {
     public interface IAccountRepository
     {
-        Task<Sharpling.Models.Account> GetAccountAsync();
+        Task<Models.Account.Account> GetAccountAsync();
+        Task<Models.Account.AccountBalance> GetAccountBalanceAsync();
     }
 }

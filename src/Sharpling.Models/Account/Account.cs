@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Sharpling.Models
+namespace Sharpling.Models.Account
 {
     public class Account
     {

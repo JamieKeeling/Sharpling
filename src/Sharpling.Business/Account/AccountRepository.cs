@@ -15,7 +15,7 @@ namespace Sharpling.Business.Account
             _authenticationToken = authenticationToken;
         }
 
-        public async Task<Models.Account> GetAccountAsync()
+        public async Task<Models.Account.Account> GetAccountAsync()
         {
             if (string.IsNullOrWhiteSpace(_authenticationToken))
             {
@@ -33,7 +33,29 @@ namespace Sharpling.Business.Account
                     throw new StarlingException("HTTP Response indicated failure");
                 }
 
-                return JsonConvert.DeserializeObject<Models.Account>(await result.Content.ReadAsStringAsync());
+                return JsonConvert.DeserializeObject<Models.Account.Account>(await result.Content.ReadAsStringAsync());
+            }
+        }
+
+        public async Task<Models.Account.AccountBalance> GetAccountBalanceAsync()
+        {
+            if (string.IsNullOrWhiteSpace(_authenticationToken))
+            {
+                throw new ArgumentException("An authentication token must be presented");
+            }
+
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _authenticationToken);
+
+                var result = await client.GetAsync($"{BaseEndpoint()}accounts/balance");
+
+                if (!result.IsSuccessStatusCode)
+                {
+                    throw new StarlingException("HTTP Response indicated failure");
+                }
+
+                return JsonConvert.DeserializeObject<Models.Account.AccountBalance>(await result.Content.ReadAsStringAsync());
             }
         }
     }
